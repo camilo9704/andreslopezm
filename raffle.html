@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/IceCream1/icon.png" type="image/x-icon">
+</head>
+
+
+<body>
+    <header>
+        <div id="logo">
+
+            <img id="icono" src="/IceCream1/logo.png" alt="logo1">
+
+            <nav id="Home">
+                <a class="nav" href="/index.html">Home</a>
+                <a class="nav" href="aboutUs.html">About Us</a>
+                <a class="nav" href="contact.html">Contact</a>
+                <a class="nav" href="/benefistandtips.html">Benefist and Tips</a>
+                <a class="nav" href="/moreinformation.html">More Information</a>
+                <a class="nav" href="#">Raffle</a>
+            </nav>
+            </div>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Raffle</h2>
+            <h3>Participate in the raffle by filling out the fields</h3>
+        </div>
+        <div class="pricipal">
+            <div class="mapa">
+                <h2>Our Location</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8828239977!2d-118.74138523738677!3d34.02003923266775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1716879076765!5m2!1ses!2sco"
+                     allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="formulario">
+    
+                <fieldset>
+                    <legend></legend>
+                    <div class="contenedor_campos">
+                        <div class="campo">
+                            <label>First Name</label>
+                            <input class="input-text" type="text" placeholder="Your name">
+                        </div>
+                        <div class="campo">
+                            <label>Last Name</label>
+                            <input class="input-text" type="text" placeholder="Last Name">
+                        </div>
+                        <div class="campo">
+                            <label>Choose Meet or Zoom</label>
+                            <select class="select" id="Meet_zoom">
+                                <option value="Meet">Meet</option>
+                                <option value="Zoom">Zoom</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label>Choose Date</label>
+                            <input class="input-text" type="date" id="choose_date">
+                        </div>
+                        <div class="campo">
+                            <label>Payment Option</label>
+                            <div>
+                                <input type="radio" id="cash" name="payment" value="Cash">
+                                <label for="cash">Cash</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="credit" name="payment" value="Credit Card">
+                                <label for="credit">Credit Card</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="debit" name="payment" value="Debit Card">
+                                <label for="debit">Debit Card</label>
+                            </div>
+                            <div class="campo">
+                                <label>Message</label>
+                                <textarea class="input-text" rows="7" cols="40"
+                                    placeholder="Your message here"></textarea>
+                            </div>
+                            <div class="campo">
+                                <input type="checkbox" id="terms" name="terms">
+                                <label for="terms">I accept terms and conditions</label>
+                            </div>
+                        </div>
+                        <div class="enviar">
+                            <button>
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                            height="24">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path fill="currentColor"
+                                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span>Send</span>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    
+        <p> Created By: Andres Lopez </p>
+
+
+</footer>
+
+
+
+
+</body>
+
+</html>
